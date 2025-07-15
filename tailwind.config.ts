@@ -57,6 +57,32 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        detectraa: {
+          navy: "#001F54",
+          "navy-light": "#03396C",
+          "navy-medium": "#005B96",
+          blue: "#0074D9",
+          "blue-light": "#87CEEB",
+          purple: "#6366F1",
+          "purple-light": "#A855F7",
+          teal: "#14B8A6",
+          "teal-light": "#5EEAD4",
+          emerald: "#10B981",
+          "emerald-light": "#6EE7B7",
+        },
+      },
+      backgroundImage: {
+        "gradient-detectraa":
+          "linear-gradient(135deg, #001F54 0%, #03396C 25%, #005B96 50%, #0074D9 75%, #87CEEB 100%)",
+        "gradient-purple-blue":
+          "linear-gradient(135deg, #6366F1 0%, #3B82F6 100%)",
+        "gradient-teal-emerald":
+          "linear-gradient(135deg, #14B8A6 0%, #10B981 100%)",
+        "gradient-navy": "linear-gradient(135deg, #001F54 0%, #03396C 100%)",
+        "gradient-radial":
+          "radial-gradient(ellipse at center, var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       borderRadius: {
         lg: "var(--radius)",
